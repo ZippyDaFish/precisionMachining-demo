@@ -69,7 +69,6 @@
     <h2 class="text-3xl mb-24">Our Services</h2>
 
     <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24">
-
         <!-- Service 1 -->
         <div class="border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 bg-white shadow-sm">
             <h3 class="text-lg mb-2">Custom Tool Design</h3>
@@ -109,20 +108,69 @@
                 Hands-on troubleshooting or tool trials.
             </p>
         </div>
-
     </div>
 </section>
 
 <!-- Offer -->
-<section class="w-full min-h-[25vh] p-16 flex flex-col justify-center bg-[var(--color-bg)]">
-    <h2 class="text-3xl">15% Off Your First Order!</h2>
+<section class="w-full min-h-[25vh] p-16 flex justify-center bg-[var(--color-bg)]">
+    <div class="w-full max-w-4xl mx-auto border border-[var(--color-border)] rounded-[var(--radius-md)] bg-[var(--color-surface)] p-10 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+        <!-- Text Content -->
+        <div class="text-center md:text-left">
+            <h2 class="text-3xl mb-2">15% Off Your First Order</h2>
+            <p class="text-sm text-[var(--color-text-muted)]">
+                Get precision tooling built to spec and save on your first production run. Guaranteed tolerances.
+            </p>
+        </div>
+
+        <!-- CTA -->
+        <div class="flex flex-col items-center md:items-end gap-3">
+            <a href="#quote" class="btn-primary px-6 py-3 rounded-[var(--radius-md)] font-semibold hover:bg-[var(--color-primary-hover)] transition">
+                Request a Quote
+            </a>
+            <span class="text-xs text-[var(--color-text-muted)]">
+                New customers only - Limited time
+            </span>
+        </div>
+    </div>
 </section>
 
 <!-- Why Us -->
 <section class="w-full min-h-[50vh] p-16 flex flex-col items-center bg-[var(--color-surface)]">
-    <h2 class="text-3xl">Hear From Our Other Customers</h2>
-    <div class="w-full max-w-6xl mx-auto px-6">
-        <p>Test stuff</p>
+    <h2 class="text-3xl mb-10">Why Us?</h2>
+
+    <div class="w-full max-w-6xl mx-auto px-6 flex flex-col gap-6">
+        <!-- Reason 1 -->
+        <div class="flex gap-6 p-6 border border-[var(--color-border)] rounded-[var(--radius-md)] bg-white shadow-sm">
+            <div class="w-1.5 bg-[var(--color-primary)] rounded-full"></div>
+            <div>
+                <h3 class="text-lg mb-2">Tight Tolerance Guarantee</h3>
+                <p class="text-sm text-[var(--color-text-muted)]">
+                    Every tool is inspected to meet your exact specifications. Trust us with your long production runs and critical applications.
+                </p>
+            </div>
+        </div>
+
+        <!-- Reason 2 -->
+        <div class="flex gap-6 p-6 border border-[var(--color-border)] rounded-[var(--radius-md)] bg-white shadow-sm">
+            <div class="w-1.5 bg-[var(--color-primary)] rounded-full"></div>
+            <div>
+                <h3 class="text-lg mb-2">Fast, Reliable Lead Times</h3>
+                <p class="text-sm text-[var(--color-text-muted)]">
+                    Skilled Journeymen and in-house grinding capabilities let us deliver high-precision tooling when you need it.
+                </p>
+            </div>
+        </div>
+
+        <!-- Reason 3 -->
+        <div class="flex gap-6 p-6 border border-[var(--color-border)] rounded-[var(--radius-md)] bg-white shadow-sm">
+            <div class="w-1.5 bg-[var(--color-primary)] rounded-full"></div>
+            <div>
+                <h3 class="text-lg mb-2">Real Machining Expertise</h3>
+                <p class="text-sm text-[var(--color-text-muted)]">
+                    We work directly with your engineers and operators to ensure you get exactly what you need.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 
