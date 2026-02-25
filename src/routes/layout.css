@@ -1,1 +1,31 @@
 @import 'tailwindcss';
+
+:root {
+    --color-primary: #1F3A5F;
+    --color-primary-hover: #162C47;
+    --color-accent: #F57C00;
+
+    --color-bg: #F5F7F9;
+    --color-surface: #FFFFFF;
+    --color-text: #1A1A1A;
+    --color-text-muted: #6B7280;
+    --color-border: #D1D5DB;
+
+    --radius-md: 6px;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+h1, h2, h3, h4 {
+    font-family: Rajdhani, sans-serif;
+    color: var(--color-primary);
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: white;
+}
