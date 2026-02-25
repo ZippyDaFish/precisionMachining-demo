@@ -12,10 +12,8 @@
         </div>
     </div>
     <!-- Hero Media -->
-    <div class="md:w-1/2 w-full flex items-center justify-center bg-[var(--color-surface)] h-screen overflow-hidden">
-        <div class="w-full max-w-xl px-6 flex items-center justify-center h-full">
-            <img src={heroMedia} alt="" class="max-h-[80%] w-auto object-contain" />
-        </div>
+    <div class="md:w-1/2 w-full bg-[var(--color-surface)] h-screen overflow-hidden">
+        <img src={heroMedia} alt="Precision tooling in operation" class="w-full h-full object-cover"/>
     </div>
 </section>
 
@@ -175,9 +173,26 @@
 </section>
 
 <!-- Final CTA -->
-<section class="w-full min-h-[50vh] p-16 flex flex-col items-center bg-[var(--color-bg)]">
-    <h2 class="text-3xl">Request a Quote!</h2>
-    <div class="w-full max-w-6xl mx-auto px-6">
-        <p>Test stuff</p>
+<section class="w-full min-h-[50vh] p-16 flex items-center justify-center bg-[var(--color-bg)]">
+    <div class="w-full max-w-3xl mx-auto px-6">
+        <div class="border border-[var(--color-border)] rounded-[var(--radius-md)] bg-[var(--color-surface)] p-10 shadow-sm text-center flex flex-col items-center gap-6">
+            <!-- Heading -->
+            <div>
+                <h2 class="text-3xl mb-2">Request a Quote</h2>
+                <p class="text-sm text-[var(--color-text-muted)]">
+                    Tell us your specs and quantities. We deliver a fast, accurate quote with guaranteed tolerances.
+                </p>
+            </div>
+
+            <!-- CTA Button -->
+            <a href="#quote" class="btn-primary px-8 py-3 rounded-[var(--radius-md)] font-semibold hover:bg-[var(--color-primary-hover)] transition">
+                Get My Quote
+            </a>
+
+            <!-- Trust Note -->
+            <p class="text-xs text-[var(--color-text-muted)]">
+                Response within 1 business day • No obligation
+            </p>
+        </div>
     </div>
 </section>
