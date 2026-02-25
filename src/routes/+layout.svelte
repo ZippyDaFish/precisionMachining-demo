@@ -8,7 +8,7 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <header class="absolute top-0 left-0 w-full p-8">
-	<div class="group relative flex items-center justify-center w-16 h-16 cursor-pointer">
+	<div class="group relative flex items-center justify-center w-16 h-16 cursor-pointer text-center">
 		<!-- Rotating Border -->
 		<div class="absolute inset-0 border-2 border-[var(--color-primary)] rounded-[var(--radius-md)]
 					transition-transform duration-300 ease-out
@@ -24,7 +24,7 @@
 
 		<h1 class="relative text-xs font-semibold text-[var(--color-primary)]
 				transition-colors duration-300 group-hover:text-[var(--color-primary)]">
-			JB Tool
+			Nifty Tool LLC
 		</h1>
 	</div>
 </header>
