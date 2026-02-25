@@ -68,40 +68,40 @@
 
     <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24">
         <!-- Service 1 -->
-        <div class="border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 bg-white shadow-sm">
-            <h3 class="text-lg mb-2">Custom Tool Design</h3>
+        <div class="cursor-pointer hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition border border-[var(--color-border)] rounded-[var(--radius-md)] p-12 bg-white shadow-sm">
+            <h3 class="text-xl mb-2">Custom Tool Design</h3>
             <p class="text-sm text-[var(--color-text-muted)]">
                 Application-specific tooling engineered.
             </p>
         </div>
 
         <!-- Service 2 -->
-        <div class="border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 bg-white shadow-sm">
-            <h3 class="text-lg mb-2">CNC Tool Manufacturing</h3>
+        <div class="cursor-pointer hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition border border-[var(--color-border)] rounded-[var(--radius-md)] p-12 bg-white shadow-sm">
+            <h3 class="text-xl mb-2">CNC Tool Manufacturing</h3>
             <p class="text-sm text-[var(--color-text-muted)]">
                 High-precision milling, turning, and grinding for carbide.
             </p>
         </div>
 
         <!-- Service 3 -->
-        <div class="border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 bg-white shadow-sm">
-            <h3 class="text-lg mb-2">Regrinding & Refurbishing</h3>
+        <div class="cursor-pointer hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition border border-[var(--color-border)] rounded-[var(--radius-md)] p-12 bg-white shadow-sm">
+            <h3 class="text-xl mb-2">Regrinding & Refurbishing</h3>
             <p class="text-sm text-[var(--color-text-muted)]">
                 Restore worn tools to extend tool life.
             </p>
         </div>
 
         <!-- Service 4 -->
-        <div class="border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 bg-white shadow-sm">
-            <h3 class="text-lg mb-2">Tool Coating Services</h3>
+        <div class="cursor-pointer hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition border border-[var(--color-border)] rounded-[var(--radius-md)] p-12 bg-white shadow-sm">
+            <h3 class="text-xl mb-2">Tool Coating Services</h3>
             <p class="text-sm text-[var(--color-text-muted)]">
                 Performance coatings that improve wear resistance and heat management.
             </p>
         </div>
 
         <!-- Service 5 -->
-        <div class="border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 bg-white shadow-sm">
-            <h3 class="text-lg mb-2">On-Site Technical Support</h3>
+        <div class="cursor-pointer hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition border border-[var(--color-border)] rounded-[var(--radius-md)] p-12 bg-white shadow-sm">
+            <h3 class="text-xl mb-2">On-Site Technical Support</h3>
             <p class="text-sm text-[var(--color-text-muted)]">
                 Hands-on troubleshooting or tool trials.
             </p>
@@ -191,7 +191,7 @@
 
             <!-- Trust Note -->
             <p class="text-xs text-[var(--color-text-muted)]">
-                Response within 1 business day • No obligation
+                Response within 1 business day - No obligation
             </p>
         </div>
     </div>
