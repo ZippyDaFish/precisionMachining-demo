@@ -27,7 +27,7 @@
     <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
         <!-- Card 1 -->
-        <div class="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 shadow-sm">
+        <div class="hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 shadow-sm">
             <p class="text-sm text-[var(--color-text-muted)] mb-4">
                 “Their tooling held ±0.0002” across a 12-hour run. We reduced scrap by 18% in the first week.”
             </p>
@@ -36,7 +36,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 shadow-sm">
+        <div class="hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 shadow-sm">
             <p class="text-sm text-[var(--color-text-muted)] mb-4">
                 “Lead times were cut in half and every insert was dead-on spec. Setup time dropped from 45 to 20 minutes.”
             </p>
@@ -45,7 +45,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 shadow-sm">
+        <div class="hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 shadow-sm">
             <p class="text-sm text-[var(--color-text-muted)] mb-4">
                 “We pushed their cutters through hardened 4140 all shift with zero chatter. Tool life doubled.”
             </p>
@@ -54,7 +54,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 shadow-sm">
+        <div class="hover:border-[var(--color-accent)] hover:-translate-y-0.5 transition bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[var(--radius-md)] p-6 shadow-sm">
             <p class="text-sm text-[var(--color-text-muted)] mb-4">
                 “Custom fixturing arrived ready to run. First-article inspection passed without a single adjustment.”
             </p>
