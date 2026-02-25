@@ -8,7 +8,10 @@
     <div class="md:w-1/2 w-full flex items-center justify-center bg-[var(--color-surface)]">
         <div class="w-full max-w-xl px-6">
             <h1 class="text-6xl mb-8">Precision Custom Tooling</h1>
-            <h3 class="text-lg">Exactly what you need (Within tolerance).</h3>
+            <h3 class="text-lg mb-8">Exactly what you need (Within tolerance).</h3>
+            <a href="#quote" class="inline-block btn-primary px-8 py-3 rounded-[var(--radius-md)] font-semibold transition-all duration-200 ease-out hover:bg-[var(--color-primary-hover)] hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:shadow-sm">
+                Request a Quote
+            </a>
         </div>
     </div>
     <!-- Hero Media -->
@@ -122,7 +125,7 @@
 
         <!-- CTA -->
         <div class="flex flex-col items-center md:items-end gap-3">
-            <a href="#quote" class="btn-primary px-6 py-3 rounded-[var(--radius-md)] font-semibold hover:bg-[var(--color-primary-hover)] transition">
+            <a href="#quote" class="btn-primary px-8 py-3 rounded-[var(--radius-md)] font-semibold transition-all duration-200 ease-out hover:bg-[var(--color-primary-hover)] hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:shadow-sm">
                 Request a Quote
             </a>
             <span class="text-xs text-[var(--color-text-muted)]">
@@ -185,7 +188,7 @@
             </div>
 
             <!-- CTA Button -->
-            <a href="#quote" class="btn-primary px-8 py-3 rounded-[var(--radius-md)] font-semibold hover:bg-[var(--color-primary-hover)] transition">
+            <a href="#quote" class="btn-primary px-8 py-3 rounded-[var(--radius-md)] font-semibold transition-all duration-200 ease-out hover:bg-[var(--color-primary-hover)] hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:shadow-sm">
                 Get My Quote
             </a>
 
